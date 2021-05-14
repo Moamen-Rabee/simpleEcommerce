@@ -1,0 +1,205 @@
+@font-face{
+	font-family: FontBold;
+  	src: url(../fonts/DroidKufi-Bold.ttf);
+}
+
+@font-face{
+	font-family: FontRegular;
+  	src: url(../fonts/DroidKufi-Regular.ttf);
+}
+
+@font-face{
+	font-family: Vibes;
+  	src: url(../fonts/Vibes.ttf);
+}
+
+@font-face{
+	font-family: Tajawal-Medium;
+  	src: url(../fonts/Tajawal-Medium.ttf);
+}
+
+@font-face{
+	font-family: Tajawal-Bold;
+  	src: url(../fonts/Tajawal-Bold.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: FontRegular, Helvetica, sans-serif;
+}
+
+body{
+    font-family: FontRegular, Helvetica, sans-serif;
+    position: relative;
+    top: 56px;
+    background-color: #ececec;
+}
+
+.svg-inline--fa{margin-left: 7px;}
+
+.form-control{
+    text-align: right !important;
+}
+
+
+/* .card .card-img-top{
+    height: 253px;
+} */
+
+
+.div_form_login{
+    width: 100%;
+    top: 100px;
+    position: relative;
+    
+}
+
+.div_form_login form h1{
+    text-align: center;
+    color: #17a2b8;
+}
+
+.div_form_login form{
+    right: 50%;
+    transform: translateX(50%);
+    width: 354px;
+    padding: 17px;
+    /* box-shadow: #000 0px 0px 3px; */
+}
+
+.div_form_login form input{
+    margin-bottom: 10px;
+    text-align: center !important;
+    width: 100%;
+}
+
+
+
+/* navbar */
+.nav-link{
+    text-align: center;
+}
+.btn_search_nav{
+    color: #ffffff;
+    border-color: #17a2b8;
+}
+
+/*Header*/
+header{
+    height: 300px;
+    background-image: url(../imgs/bg1c.jpg);
+    background-size: cover;
+}
+
+header .overlay{
+    background-color: #343a40a8;
+    height: 100%;
+}
+
+header .text_header{
+    text-align: center;
+    padding-top:100px;
+    color: white;
+}
+
+
+header .ico_header{
+    text-align: left;
+    padding-top: 0px;
+    color: white;
+    font-size: 210px;
+}
+
+/* search box */
+.mybox{
+    padding: 50px 20px 50px 20px;
+    
+}
+
+.mybox h3{
+    color:#17a2b8;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mybox input{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mybox button{
+    width: 200px;
+}
+
+
+/*footer */
+
+footer{
+    background-color: #343a40;
+    color: #fff;
+    padding: 13px;
+    text-align: center;
+    font-weight: 500;
+}
+
+footer p{
+    margin-bottom: 0px;
+}
+
+/* view products edits */
+
+.lable_search_word{
+    text-align: center;
+    background-color: #46a741;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 4px;
+    color: #ececec;
+}
+/* end view products edits */
+
+
+
+
+
+/* DASHBOARD PAGE EDITS	*/
+
+.dashboard_section{
+	padding:20px;
+	border-radius:10px;
+	color:#fff;
+	position:relative;
+	cursor:pointer;
+	transition:opacity 0.3s;
+	margin-bottom:30px;
+}
+
+.dashboard_section:hover{
+	opacity:0.7;
+}
+
+.dashboard_section h4{
+	font-size:2em;
+	font-family:Tajawal-Medium,"Arial Black", Gadget, sans-serif;
+	
+}
+
+.dashboard_section h2{
+	font-family:Tajawal-Medium,"Arial Black", Gadget, sans-serif;
+	font-size:4em;
+}
+
+.dashboard_section .logo_section{
+	position:absolute;
+	top:40px;
+	left:20px;
+	font-size:90px;
+}
+
+.headding{
+	font-family:FontBold;
+	text-align:center;
+	padding:20px;
+}
